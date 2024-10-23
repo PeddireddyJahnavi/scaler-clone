@@ -1,0 +1,602 @@
+#website {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.096);
+    gap: 20px;
+    
+
+    #navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+        height: 80px;
+        #nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+
+            #image {
+                height: 100px;
+                width: 100px;
+            }
+
+            #items {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+
+                #i {
+                    font-size: 20px;
+                }
+            }
+        }
+
+        #button {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+
+            #b1 {
+                border-radius: 10px;
+                font-size: 20px;
+                border-color: rgba(0, 0, 255, 0.507);
+                padding: 10px 10px;
+                background-color: white;
+
+            }
+
+            #b1:hover {
+                background-color: rgba(0, 0, 255, 0.689);
+                cursor: pointer;
+                border-radius: 20px;
+                font-size: 20px;
+                border-color: rgba(0, 0, 255, 0.507);
+                padding: 10px 10px;
+                color: white;
+
+            }
+
+            #b2 {
+                border-radius: 10px;
+                font-size: 20px;
+                padding: 10px 10px;
+                background-color: rgba(255, 0, 0, 0.68);
+                color: white;
+                border: none;
+            }
+        }
+
+    }
+
+    #home {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: start;
+        gap: 140px;
+        /* background-color: #23437a; */
+        width: 100%;
+        height: 400px;
+        background-image: url("https://assets-v2.scaler.com/assets/academy/svg/banner-background-34136d3a9ddff172e6bae6e3d8283c452231dcda2196b055bfa2e34e222754b7.svg");
+        height: 750px;
+        margin-top: 20px;
+
+        #div1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: start;
+            gap: 10px;
+            width: 450px;
+            margin-top: 140px;
+
+            #h1 {
+                font-size: 30px;
+                font-weight: 150px;
+                color: white;
+            }
+
+            #h2 {
+                font-size: 25px;
+                color: white;
+            }
+
+            #but {
+                display: flex;
+                flex-direction: row;
+                justify-content: start;
+                align-items: start;
+                gap: 10px;
+
+                #b3 {
+                    padding: 15px 15px;
+                    color: white;
+                    background-color: rgba(255, 0, 0, 0.6);
+                    border: none;
+                }
+
+                #b4 {
+                    padding: 15px 15px;
+                    color: rgba(0, 0, 255, 0.594);
+                    background-color: white;
+                    border: none;
+                }
+            }
+
+            #the {
+                display: flex;
+                flex-direction: row;
+                justify-content: start;
+                align-items: start;
+                gap: 10px;
+
+                #t1 {
+                    color: white;
+                }
+
+                #t2 {
+                    color: orange;
+                }
+            }
+        }
+
+        #div2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            background-color: white;
+            margin: 10px 0px 0px 30px;
+            border-radius: 20px;
+            height: 450px;
+            margin-top: 40px;
+
+
+
+            #h1 {
+                font-size: 30px;
+            }
+
+            #form {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: start;
+                height: 300px;
+
+                form {
+                    display: flex;
+                    flex-direction: column;
+                    overflow: scroll;
+
+                    #a0 {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+
+                        input {
+                            height: 47px;
+                            width: 400px;
+                        }
+                    }
+
+                    #a6 {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: start;
+                        align-items: center;
+                        gap: 10px;
+                        padding: 30px 30px;
+
+                        #a7 {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            align-items: center;
+                            border: 1px black solid;
+                            padding: 10px;
+                            #imag{
+                                height: 30px;
+                                width: 40px;
+                            }
+                        }
+
+                        input {
+                            height: 47px;
+                            width: 300px;
+                        }
+                    }
+
+                    #b0 {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 10px;
+
+                        input {
+                            height: 40px;
+                            width: 150px;
+                        }
+
+                        select {
+                            height: 40px;
+                            width: 250px;
+                        }
+                    }
+
+                    #b7 {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 20px;
+                        padding: 20px;
+
+                        #company {
+                            height: 40px;
+                            width: 400px;
+                        }
+
+                        #jobtitle {
+                            height: 40px;
+                            width: 400px;
+                        }
+                    }
+
+                    #b1 {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        border: 1px gainsboro solid;
+                        height: 40px;
+                        padding: 10px 20px;
+
+                        /* width: 400px; */
+                        #b2 {
+                            font-size: 20px;
+                             height: 50px;
+                            width: 50px; 
+                            
+                        }
+
+                        #b3 {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: start;
+
+                            #b4 {
+                                font-size: 15px;
+                            }
+
+                            #b5 {
+                                font-size: 15px;
+                                color: gray;
+                            }
+                        }
+                    }
+
+                    #a9 {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 10px;
+                        padding: 20px 0px;
+
+                        button {
+                            height: 40px;
+                            width: 230px;
+                            border-radius: 5px;
+                            background-color: rgba(255, 0, 0, 0.61);
+                            border: none;
+                        }
+
+                        #a10 {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 10px;
+
+                            #i1 {
+                                font-size: 20px;
+                                color: rgba(255, 0, 0, 0.557);
+                            }
+
+                            #a11 {
+                                font-size: 15px;
+                                color: rgba(255, 0, 0, 0.557);
+                            }
+                        }
+                    }
+
+                    #a11 {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: start;
+                        padding: 15px 20px;
+                        gap: 10px;
+
+                        #a12 {
+                            font-size: 15px;
+
+                            b {
+                                color: skyblue;
+                            }
+                        }
+
+                        #a13 {
+                            font-size: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    #problem {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        background-color: white;
+        width: 1100px;
+        height: 670px;
+        
+        margin-top: -230px;
+        border-radius: 20px;
+
+        #prob {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            
+
+            #prob1 {
+                font-size: 30px;
+            }
+
+            #prob2 {
+                font-size: 30px;
+                font-weight: bold;
+            }
+        }
+
+
+        .col {
+            row-gap: 10px;
+
+            width: 330px;
+            height: 230px;
+
+            .card-img-top {
+                margin-left: 60px;
+            }
+
+            .card-text {
+                font-size: 21px;
+                color: whitesmoke;
+            }
+
+
+        }
+    }
+    #cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        #heading{
+            font-size: 30px;
+        }
+        .card{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 300px;
+            height: 200px;
+            border-radius: 20px;
+            
+            .card-img-top{
+                height: 70px;
+                width: 70px;                
+            }
+            .card-body{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }  
+        }
+    }
+    #curriculum{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #e8f2fe;
+        gap: 20px;
+        width: 100%;
+        #radios{
+            display: flex;
+            flex-direction:row ;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            #r1{
+                display: flex;
+                flex-direction:row;
+                justify-content: start;
+                align-items: start;
+                gap: 150px; 
+                padding: 10px 10px;
+                background-color: white;
+                width: 350px;
+                #rad1{
+                    display: flex;
+                    flex-direction:column;
+                    justify-content: start;
+                    align-items: start;
+                    #r11{
+                        font-size: 30px;
+                    }
+                    #r12{
+                        font-size: 20px;
+                    }
+                }
+                #radio1{
+                    height: 40px;
+                    width: 40px;
+                }
+            }
+            #r1:hover{
+                display: flex;
+                flex-direction:row;
+                justify-content: start;
+                align-items: start;
+                gap: 150px; 
+                padding: 10px 10px;
+                background-color: rgba(0, 0, 255, 0.34);
+                cursor: pointer;
+                width: 350px;
+
+            }
+            #r2{
+                display: flex;
+                flex-direction:row;
+                justify-content: start;
+                align-items: start;
+                gap: 80px; 
+                padding: 10px 10px;
+                background-color: white;
+                width: 350px;
+                #rad2{
+                    display: flex;
+                    flex-direction:column;
+                    justify-content: start;
+                    align-items: start;
+                    #r21{
+                        font-size: 30px;
+                    }
+                    #r22{
+                        font-size: 20px;
+                    }
+                }
+                #radio2{
+                    height: 40px;
+                    width: 40px;
+                }
+            }
+            #r2:hover{
+                display: flex;
+                flex-direction:row;
+                justify-content: start;
+                align-items: start;
+                gap: 150px; 
+                padding: 10px 10px;
+                background-color: rgba(0, 0, 255, 0.34);
+                cursor: pointer;
+                width: 350px;
+
+            }
+            #r3{
+                display: flex;
+                flex-direction:row;
+                justify-content: start;
+                align-items: start;
+                gap: 80px; 
+                padding: 10px 10px;
+                background-color: white;
+                width: 350px;
+                #rad3{
+                    display: flex;
+                    flex-direction:column;
+                    justify-content: start;
+                    align-items: start;
+                    #r31{
+                        font-size: 30px;
+                    }
+                    #r32{
+                        font-size: 20px;
+                    }
+                }
+                #radio3{
+                    height: 40px;
+                    width: 40px;
+                }
+            }
+            #r3:hover{
+                display: flex;
+                flex-direction:row;
+                justify-content: start;
+                align-items: start;
+                gap: 150px; 
+                padding: 10px 10px;
+                background-color: rgba(0, 0, 255, 0.34);
+                cursor: pointer;
+                width: 350px;
+
+            }
+        }
+        #parts{
+            display: flex;
+            flex-direction:row;
+            justify-content: start;
+            align-items: start;
+            #part1{
+                display: flex;
+                flex-direction:column;
+                justify-content: start;
+                align-items: start;
+                #p1{
+                    display: flex;
+                    flex-direction:row;
+                    justify-content: start;
+                    align-items: start;
+                    gap: 80px; 
+                    padding: 10px 10px;
+                    background-color: white;
+                    width: 550px;
+                    #p11{
+                        display: flex;
+                        flex-direction:column;
+                        justify-content: start;
+                        align-items: start;
+                        #pa1{
+                            font-size: 20px;
+                        }
+                        #pa2{
+                            font-size: 25px;
+                        }
+                    }
+                    #p12{
+                        font-size: 20px;
+                    }
+                }
+            }
+            
+                
+        }
+    }
+}
